@@ -487,7 +487,7 @@ $(document).ready(() => {
       } else {
         $('.get-free-nas-section').hide();
       }
-
+      $('.faucet-link').attr('href', `https://blockproject.io/faucet?address=${info.account.address}`);
       filterEntries();
       showCurrentNetwork();
     }
